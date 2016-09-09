@@ -7,29 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0158DE231D8A0FEA0038F08D /* drip.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0158DE1D1D8A0EC40038F08D /* drip.ttf */; };
 		0173D21B1D832C3200C659B2 /* DripIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0173D1F71D8327AD00C659B2 /* DripIcons.swift */; };
-		0173D2211D832C8A00C659B2 /* drip.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0173D1F61D83278F00C659B2 /* drip.ttf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0173D2201D832C8300C659B2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Fonts;
-			dstSubfolderSpec = 7;
-			files = (
-				0173D2211D832C8A00C659B2 /* drip.ttf in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		0158DE1D1D8A0EC40038F08D /* drip.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drip.ttf; sourceTree = "<group>"; };
 		0173D1E71D8325D200C659B2 /* DripIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DripIcons.h; sourceTree = "<group>"; };
 		0173D1E81D8325D200C659B2 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		0173D1F11D8326EC00C659B2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0173D1F31D8326FA00C659B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0173D1F61D83278F00C659B2 /* drip.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drip.ttf; sourceTree = "<group>"; };
 		0173D1F71D8327AD00C659B2 /* DripIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DripIcons.swift; sourceTree = "<group>"; };
 		0173D2131D832C2400C659B2 /* DripIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DripIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -45,12 +32,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0158DE1E1D8A0EEA0038F08D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0158DE1D1D8A0EC40038F08D /* drip.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		0173D1D81D83259800C659B2 = {
 			isa = PBXGroup;
 			children = (
-				0173D1F51D83275400C659B2 /* Resources */,
 				0173D1F01D8326DD00C659B2 /* Metadata */,
 				0173D1ED1D83263500C659B2 /* Sources */,
+				0158DE1E1D8A0EEA0038F08D /* Font */,
 				0173D1E51D8325D200C659B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,14 +77,6 @@
 			name = Metadata;
 			sourceTree = "<group>";
 		};
-		0173D1F51D83275400C659B2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0173D1F61D83278F00C659B2 /* drip.ttf */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -111,7 +98,6 @@
 				0173D20F1D832C2400C659B2 /* Frameworks */,
 				0173D2101D832C2400C659B2 /* Headers */,
 				0173D2111D832C2400C659B2 /* Resources */,
-				0173D2201D832C8300C659B2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -159,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0158DE231D8A0FEA0038F08D /* drip.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
