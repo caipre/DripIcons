@@ -1,4 +1,4 @@
-public enum DripIcons: String {
+public enum DripIcon: String {
     case cloud =  "a"
     case cloudDrizzle =  "b"
     case cloudDrizzleLightning =  "c"
